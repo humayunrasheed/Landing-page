@@ -2,4 +2,97 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: rgb(69, 74, 74);
+    font-family: 'Courier New', Courier, monospace ;
+}
+.header{
+    background-color: rgb(67, 64, 61);
+    color: white;
+    margin: 0;
+    padding: 16px;
+}
+img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.links{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+a{
+    font-size: 32px;
+    gap: 32px;
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+.heading{
+    font-weight: bold;
+    font-size: 48px;
+}
+.heading2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 40px;
+    color: white;
+}
+.sub-cont2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text{
+    gap: 8px;
+    padding: 8px;
+}
+.seaction2{
+    background-color: rgb(33, 24, 24);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.seaction3{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: rgb(27, 22, 22);
+    color: white;
+}
+.quote-by{
+    align-items: flex-end;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: black;
+    color: white;
+}
+.seaction4{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(24, 22, 22);
 }
