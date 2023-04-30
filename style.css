@@ -1,19 +1,17 @@
 body{
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: rgb(69, 74, 74);
     font-family: 'Courier New', Courier, monospace ;
 }
 .header{
     background-color: rgb(67, 64, 61);
     color: white;
     margin: 0;
-    padding: 16px;
+    padding: 0;
 }
 img{
     border-radius: 50%;
@@ -42,7 +40,7 @@ ul{
 .container2{
     display: flex;
     justify-content: center;
-    padding: 16px;
+   
 }
 .heading{
     font-weight: bold;
@@ -54,6 +52,7 @@ ul{
     align-self: center;
     font-size: 40px;
     color: white;
+    margin: 0;
 }
 .sub-cont2{
     display: flex;
@@ -75,13 +74,14 @@ ul{
 }
 .seaction3{
     display: flex;
-    align-items: center;
-    justify-content: left;
+    align-items: end;
+    justify-content: center;
     background-color: rgb(27, 22, 22);
     color: white;
 }
 .quote-by{
     align-items: flex-end;
+    justify-self: right;
 }
 .footer{
     display: flex;
@@ -93,6 +93,7 @@ ul{
 .seaction4{
     display: flex;
     align-items: center;
+    justify-content: center;
     color: white;
     background-color: rgb(24, 22, 22);
 }
